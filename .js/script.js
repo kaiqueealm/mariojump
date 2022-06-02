@@ -40,16 +40,5 @@ const loop = setInterval(() => {
 document.addEventListener('keydown', jump);
 
 
-//const marioPosition = 
 
-/*
- 
 
-if (pipePosition <= 120){
-
-    
-    
-  pipe.style.animation = 'none';
-  pipe.style.left = `$(pipePosition)px`;    
- 
-  */
