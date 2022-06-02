@@ -38,6 +38,18 @@
   animation: clouds-animation 30s infinite linear;
 }
 
+.link{
+  font-size: 60px;
+  text-decoration: none;
+  position: fixed;
+  left: 650px;
+
+}
+
+
+
+
+
   @keyframes pipe-animation{ /* para colocar o nome da animação */
     from{ 
       right: -80px;

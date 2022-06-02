@@ -37,6 +37,16 @@ const loop = setInterval(() => {
 
 }, 10);
 
+const verificar = () => {
+  mario.classList.add('jump')
+
+  setTimeout(() => {
+
+    mario.classList.remove('jump');
+
+  }, 500); //setTimeout ela recebe dois parametros uma função
+}
+
 document.addEventListener('keydown', jump);
 
 
